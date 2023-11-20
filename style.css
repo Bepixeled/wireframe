@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 2rem;
+    padding-right: 1rem;
+}
+
+nav li {
+    display: flex;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    width: 80%;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#home {
+    padding: 2rem;
+    text-align: center;
+    margin: 4rem 4rem 8rem 4rem;
+
+}
+
+
+
+#duck {
+    display: flex;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+
+}
+
+.duck-left {
+    width: 50%;
+    justify-content: flex-start;
+    margin-left: 4rem;
+}
+
+.duck-right {
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.duck-right img {
+    max-width: 400px;
+    float: right;
+    margin-right: 4rem;
+}
+
+#emergency {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    row-gap: 2rem;
+}
+
+.grid-item {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+
+
+
+}
+
+.grid-container img {
+    width: 240px;
+    height: auto;
+    border: solid black 1px;
+    padding: 2px;
+
+}
+
+.grid-container a {
+    padding: 1rem;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer img {
+    width: 30px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 1rem;
+
+}
