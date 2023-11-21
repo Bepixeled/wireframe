@@ -149,7 +149,12 @@ header {
 
 }
 
-
+#home p {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    max-width: 60%;
+}
 
 #duck {
     display: flex;
