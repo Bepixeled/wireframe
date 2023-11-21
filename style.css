@@ -140,6 +140,8 @@ nav li {
 
 header {
     margin-bottom: 20px;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 #home {
